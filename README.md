@@ -1,62 +1,58 @@
-Multi-Agent Market Research System
+# Market-Research-Agent
+
+## Description
+
+The objective of this application is to assist users in performing comprehensive financial and market analyses of any company using publicly available information from the internet. The application employs multiple AI agents, each specialized in different aspects of financial and market research, to gather, analyze, and compile data into a cohesive and informative report. This tool enhances the user's ability to make informed decisions based on detailed and factual analysis. Key technologies used in this project include CrewAi,Langchain, Streamlit, Python and Google Gemini Flash 1.5 LLM 
+
+## Demo of the app
+
+https://github.com/psrane8/Market-Research-Agent/assets/49234060/2ecdf874-420a-48db-a4b2-411e3424cd28
+
+## Installation
+
+To run this project, follow these steps:
+
+1. Clone this repository to your local machine.
+   ```bash
+   git clone [https://github.com/psrane8/Market-Research-Agent.git]
+   ```
+
+2. Navigate to the project directory.
+   ```bash
+   cd Market-Research-Agent
+   ```
+
+3. Install the required dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Ensure you have installed all dependencies as instructed above.
+
+2. Run the Streamlit app.
+   ```bash
+   streamlit run app.py
+   ```
+
+3. Access the app through your browser at http://localhost:8501
+
+4. Create a .env file consisting of "GOOGLE_API_KEY" and "SERPER_API_KEY"
+   
+5. Type the name of the company and watch the report being created
 
 
+## Credits
 
-This repository hosts the code for a Multi-Agent architecture system designed for generating AI and Generative AI use cases for companies and industries. The system focuses on market research, use case generation, and resource asset collection.
+- [CrewAI](https://www.crewai.com/)
+- [Langchain](https://www.langchain.com/)
+- [Google Gemini Flash 1.5](https://deepmind.google/technologies/gemini/flash/)
+- [Streamlit](https://streamlit.io/)
+- [SerperAPI](https://serper.dev/)
+- [Python](https://www.python.org/)
 
-Project Overview
+## License
 
-
-The Market-Research-Agent project leverages multiple AI agents to perform financial and market analysis for various companies. It employs a blend of advanced technologies to automate, streamline, and enhance insights in corporate market research.
-
-Key Components
-
-
-Market Research and Analysis: Collects and analyzes company data, industry trends, and market forecasts.
-
-Use Case Generation: Generates relevant AI-driven solutions and use cases for target industries.
-
-Resource Collection: Gathers necessary assets, documents, and resources for in-depth market intelligence.
-
-Technologies Used
-
-
-CrewAi: Provides collaborative AI-driven functionalities.
-
-Langchain: Facilitates building multi-agent systems and connecting LLMs effectively.
-
-Streamlit: Used for creating an interactive and user-friendly frontend interface.
-
-Python: Core programming language for back-end processes.
-
-Google Gemini Flash 1.5 LLM: Employed for generating insights, performing analysis, and enabling conversational interactions.
-
-Installation
-
-
-Clone the repository
-
-
-Install dependencies
-
-
-Usage
-
-Run the main application:
-
-bash
-Copy code
-python app.py
-Access the Streamlit Interface
-Configure Agents
-
-Project Structure
-
-
-agents.py: Contains the multi-agent logic, definitions, and configurations for each AI agent.
-
-app.py: Main application file for initializing and running the Streamlit frontend.
-
-README.md: Project documentation.
-
-
+This project is licensed under the [MIT License](LICENSE).
+```
