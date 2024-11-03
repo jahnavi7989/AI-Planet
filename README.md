@@ -14,12 +14,12 @@ To run this project, follow these steps:
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone [https://github.com/psrane8/Market-Research-Agent.git]
+   git clone [https://github.com/jahnavi7989/AI-Planet.git]
    ```
 
 2. Navigate to the project directory.
    ```bash
-   cd Market-Research-Agent
+   cd AI-Planet
    ```
 
 3. Install the required dependencies.
@@ -36,7 +36,7 @@ To run this project, follow these steps:
    streamlit run app.py
    ```
 
-3. Access the app through your browser at http://localhost:8501
+3. Access the app through browser 
 
 4. Create a .env file consisting of "GOOGLE_API_KEY" and "SERPER_API_KEY"
    
