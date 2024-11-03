@@ -5,9 +5,13 @@ Multi-Agent Market Research System
 This repository hosts the code for a Multi-Agent architecture system designed for generating AI and Generative AI use cases for companies and industries. The system focuses on market research, use case generation, and resource asset collection.
 
 Project Overview
+
+
 The Market-Research-Agent project leverages multiple AI agents to perform financial and market analysis for various companies. It employs a blend of advanced technologies to automate, streamline, and enhance insights in corporate market research.
 
 Key Components
+
+
 Market Research and Analysis: Collects and analyzes company data, industry trends, and market forecasts.
 Use Case Generation: Generates relevant AI-driven solutions and use cases for target industries.
 Resource Collection: Gathers necessary assets, documents, and resources for in-depth market intelligence.
