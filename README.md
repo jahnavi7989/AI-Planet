@@ -1,38 +1,54 @@
 Market-Research-Agent
-
-
 Description
+Market-Research-Agent is a powerful application designed to provide users with comprehensive financial and market analyses of companies using publicly accessible internet data. Utilizing multiple AI agents, each with specialized expertise in various aspects of financial and market research, this tool gathers, analyzes, and compiles relevant data into an informative report. The output enables users to make well-informed decisions based on factual, detailed insights.
 
-The objective of this application is to assist users in performing comprehensive financial and market analyses of any company using publicly available information from the internet. The application employs multiple AI agents, each specialized in different aspects of financial and market research, to gather, analyze, and compile data into a cohesive and informative report. This tool enhances the user's ability to make informed decisions based on detailed and factual analysis. Key technologies used in this project include CrewAi,Langchain, Streamlit, Python and Google Gemini Flash 1.5 LLM
+Key technologies utilized in this project include CrewAI, Langchain, Streamlit, Python, and Google Gemini Flash 1.5 LLM.
+
+Demo
+To see Market-Research-Agent in action, watch the demonstration video: Market_research.mp4.
 
 Installation
-To run this project, follow these steps:
+To set up this project locally, follow these steps:
 
-Clone this repository to your local machine.
+Clone the repository:
 
-git clone [https://github.com/psrane8/Market-Research-Agent.git]
-Navigate to the project directory.
+bash
+Copy code
+git clone https://github.com/psrane8/Market-Research-Agent.git
+Navigate to the project directory:
 
+bash
+Copy code
 cd Market-Research-Agent
-Install the required dependencies.
+Install the required dependencies:
 
+bash
+Copy code
 pip install -r requirements.txt
 Usage
-Ensure you have installed all dependencies as instructed above.
+Ensure all dependencies are installed as directed above.
 
-Run the Streamlit app.
+Run the Streamlit app:
 
+bash
+Copy code
 streamlit run app.py
-Access the app through your browser at http://localhost:8501
+Open your browser 
+Create a .env file in the project directory with the following environment variables:
 
-Create a .env file consisting of "GOOGLE_API_KEY" and "SERPER_API_KEY"
-
-Type the name of the company and watch the report being created
+makefile
+Copy code
+GOOGLE_API_KEY=your_google_api_key
+SERPER_API_KEY=your_serper_api_key
+Type the name of a company in the app to generate an analytical report.
 
 Credits
+This project leverages the following technologies and APIs:
+
 CrewAI
 Langchain
 Google Gemini Flash 1.5
 Streamlit
 SerperAPI
 Python
+
